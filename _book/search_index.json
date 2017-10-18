@@ -1,0 +1,3 @@
+[
+["_main.html", "", " query&lt;-“SELECT nameFirst,nameLast,avg(Salary) FROM Salaries INNER JOIN Master ON Salaries.playerID= Master.playerID WHERE Batting.playerID=‘ruthba01’” result&lt;-sqldf(query) result\\(playerID&lt;-factor(result\\)playerID, levels =result$playerID ) ggplot()+ geom_bar(data =result,aes(x=playerID, y=query&lt;-“SELECT nameFirst,nameLast,teamID,yearID,HR FROM Batting INNER JOIN Master ON Batting.playerID= Master.playerID WHERE Batting.playerID=‘ruthba01’” sqldf(query) ),stat= ‘identity’,color=“blue”,fill=“white” )+ ylab(“average_Salary”)+ xlab(“name”)+ ggtitle(“SALARY”) "]
+]
